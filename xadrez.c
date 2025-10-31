@@ -57,7 +57,7 @@ void moverCavalo(int movimentos) {
 void moverBispoLoopAninhado(int casasVerticais, int casasHorizontais) {
     printf("\nBispo com loops aninhados:\n");
     for (int v = 0; v < casasVerticais; v++) {
-        for (int h = 0; h < casasHorizontais; h++) {
+        for (int h = 0; h < casasHorizsontais; h++) {
             printf("Diagonal Superior Direita\n");
         }
     }
